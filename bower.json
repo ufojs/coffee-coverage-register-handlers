@@ -1,0 +1,19 @@
+{
+  "name": "coffee-coverage-register-handlers",
+  "version": "0.0.1",
+  "homepage": "https://github.com/ufojs/coffee-coverage-register-handlers",
+  "authors": [
+    "Pasquale Boemio <boemianrapsodi@gmail.com>"
+  ],
+  "description": "JS file used to register handlers for coffee coverage",
+  "main": "./register-handlers.js",
+  "keywords": [
+    "coverage",
+    "testing",
+    "coffee"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+  ]
+}
