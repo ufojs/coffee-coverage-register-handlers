@@ -1,7 +1,9 @@
+var path = require('path')
+
 require('coffee-coverage').register({
   path: 'abbr',
-  basePath: __dirname + '/../../src',
-  exclude: ['/test', '/node_modules', '/.git', '/lib'],
+  basePath: path.join(__dirname, '..', '..'),
+  exclude: ['test', 'node_modules', '.git', 'lib', 'integration-test'],
   initAll: true,
   streamlinejs: false
 });
